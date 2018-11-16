@@ -1,0 +1,39 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+	<h1>
+		Welcome to {{ title }}!
+	</h1>
+</div>
+<!-- <ng-select></ng-select> -->
+<div style="width: 300px; margin-bottom: 20px;">
+  <h3>Select a single city</h3>
+<!--   <ng2-select [allowClear]="true"
+              [items]="items"
+              [disabled]="disabled"
+              (data)="refreshValue($event)"
+              (selected)="selected($event)"
+              (removed)="removed($event)"
+              (typed)="typed($event)"
+              placeholder="No city selected">
+  </ng2-select>
+  <ng2-select [allowClear]="true"
+              [items]="items"
+              [disabled]="disabled"
+              (data)="refreshValue($event)"
+              (selected)="selected($event)"
+              (removed)="removed($event)"
+              (typed)="typed($event)"
+              placeholder="No city selected">
+  </ng2-select> -->
+  <p></p>
+  <pre>{{value.text}}</pre>
+  <div>
+   <!--  <button type="button" class="btn btn-primary"
+            [(ngModel)]="disabledV" btnCheckbox
+            btnCheckboxTrue="1" btnCheckboxFalse="0">
+      {{disabled === '1' ? 'Enable' : 'Disable'}}
+    </button> -->
+  </div>
+</div>
+
+<router-outlet></router-outlet>
