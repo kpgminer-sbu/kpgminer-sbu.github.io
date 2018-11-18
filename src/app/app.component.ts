@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import {SelectModule} from 'ng2-select';
 
 @Component({
   selector: 'app-root',
